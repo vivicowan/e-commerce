@@ -1,9 +1,9 @@
 # E-Commerce Backend
 
 ## Description:
-- For this task, I wanted to allow a business owner to view and manage the departments, roles, and employees inside of a business.  
-- The reason I built this employee traker was to get a better grasp of MySQL. I got to practice using a database, which can be very useful for me in the future.
-- This task helped me gain a better understanding of the MySQL syntax and functionality. 
+- For this task, I wanted to allow a manager to have a functional backend retail store made with latest technologies.  
+- The reason I built this e-commerce backend was to understand the functionality of Express.js API and how a MySQL database can be incorporated.
+- This task helped me gain a better understanding of the MySQL Sequelize, the Object Relational Mapper. I learned how to create models and extend those models to my API routes. I was also able to learn how to initialize a database in my command line as well as seed that database.
 
 ## How to run this application
 - E-Commerce is the backend of a platform that uses a database to run. In order to run this application, start off with ("npm install") to have npm and node modules.
@@ -15,11 +15,19 @@
 ## Instuctional Video
 For a demonstration on how to run this application, please watch this video: [E-Commerce Walkthrough](https://www.youtube.com/watch?v=MZHyaY2Kth8)
 
-## Images
-Command Line:
+## Intiating Database
+![NPM Install](./assets/npm-install.png)
+## Seeding the Database through the Command Line
+![NPM Run Seed](./assets/npm-run-seed.png)
 
-![Sample Generated Page](./assets/bigview.png)
-
-Bonus Viewing:
-
-![Sample Generated Page](./assets/bonus.png)
+## Insomnia
+### Get All
+![Get All](./assets/get-all.png)
+### Get All By Primary Key
+![Get By Primary Key](./assets/get-bypk.png)
+### Post 
+![Post](./assets/post.png)
+### Put
+![Update](./assets/update.png)
+### Delete
+![Delete](./assets/delete.png)
